@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Raleway', sans-serif;    
+    background-color: black;
+    color: white;
+}
+h1{
+    color: white;
+    padding-top: 30px;
+    font-family: 'Bebas Neue';
+}
+h2{
+    color: white;
+    padding-top: 20px;
+    font-family: 'Bebas Neue';
+}
+h1:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.nombre{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.nombre:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.secciones{
+    color: black;
+}
+.seccionesdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 150px 10px 150px;
+    background-color: azure;
+}
+.secciones:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    transition: all 300ms;
+}
+.cabecera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buscar{
+    padding-top: 35px;
+    color: yellow;
+}
+.buscar input {
+    padding: 0 10px ;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid silver;
+}
+.logo {
+    transform: scale();
+    width: 150px;
+    padding-bottom: 5px;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+}
+.footer {
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 150px 10px 150px;
+}
+.fa-brands{
+    color: white;
+    padding: 0px;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 0px;
+}
+.fa-instagram:hover{
+    color: rgb(204, 56, 93);
+}
+.fa-facebook-square:hover{
+    color: cornflowerblue;
+    outline: none;
+}
+.fa-twitter:hover{
+    color: deepskyblue;
+}
+.integrantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: azure;
+    color: black;
+    margin: 10px;
+    padding: 7px;
+}
+.lakonga:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.ulises:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.rodrigoimg:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.lamona:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.cantantes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+}
+.la21:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.lakonga{
+    padding: 0 10px;
+}
+.la21{
+    padding: 0 10px;
+}
+.lamona{
+    padding: 0 10px;
+}
+.ulises{
+    padding: 0 10px;
+}
+.rodrigoimg{
+    padding: 0 10px;
+    width: 200px;
+}
+.cancion{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.aire{
+    width:300px;
+    height:200px;
+}
+
+.songs{
+    padding-bottom: 10px;
+}
+.CU-AR-TE-TO{
+    font-size: 100px;
+    text-align: center;
+}
+.detallegenero{
+    text-align: center;
+}
+.vermas{
+    color: lightblue;
+    padding: 2px;
+    background-color: aliceblue;
+}
+.descrip{
+    padding-bottom: 30px;
+}
+.h2genero{
+    padding-top: 30px;
+}
+.vermas:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.Albumes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.discos{
+    text-align: center;
+}
+.albumesfotos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.albumeskonga{
+    width: 350px;
+}
+.albumesrodri{
+    width: 350px;
+}
+.albumesuli{
+    width: 350px;
+}
+.albumeskonga:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.albumesrodri:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.albumesuli:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.h2albumes{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.h2artistas{
+    text-align: center;
+    padding: 30px;
+    padding-top: 60px;
+    font-size: 40px;
+}
+.h2canc{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.generito{
+    text-align: center;
+}
+.cuartetito{
+    padding-right: 100px;
+}
+.genero{
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:center;
+        padding:15px;
+        height:600px;
+}
+.mona{
+    margin:30px;
+    padding:15px;
+    width:170px;
+}
+.img{
+    width:170px;
+}
+.info{
+    color:yellow;
+}
+.playlist{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.play{
+    text-align: center;
+    margin:10px;
+    border-radius: 10px;
+}
+.link{
+    padding:90px;
+    color:white;
+}
