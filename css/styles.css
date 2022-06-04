@@ -135,7 +135,11 @@ h1:hover{
     transform: scale(1.1);
     transition: all 300ms;
 }
+.gene{
+    padding-bottom: 70px;
+}
 .cantantes{
+        padding-bottom: 60px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -183,9 +187,9 @@ h1:hover{
     text-align: center;
 }
 .vermas{
-    color: lightblue;
-    padding: 2px;
-    background-color: aliceblue;
+    color: black;
+    padding: 4px;
+    background-color: white;
 }
 .descrip{
     padding-bottom: 30px;
@@ -203,10 +207,16 @@ h1:hover{
     flex-direction: row;
     justify-content: space-around;
 }
+.discopa{
+    padding-bottom: 80px;
+}
 .discos{
+    font-size: 50px;
+    padding: 50px;
     text-align: center;
 }
 .albumesfotos{
+    padding-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -221,15 +231,7 @@ h1:hover{
 .albumesuli{
     width: 350px;
 }
-.albumeskonga:hover{
-    transform: scale(1.1);
-    transition: all 300ms;
-}
-.albumesrodri:hover{
-    transform: scale(1.1);
-    transition: all 300ms;
-}
-.albumesuli:hover{
+.album:hover{
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -246,7 +248,7 @@ h1:hover{
 }
 .h2canc{
     text-align: center;
-    padding: 30px;
+    padding: 70px;
     font-size: 40px;
 }
 .generito{
@@ -260,7 +262,7 @@ h1:hover{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content:center;
-        padding:15px;
+        padding: 15px;
         height:600px;
 }
 .mona{
@@ -288,4 +290,15 @@ h1:hover{
 .link{
     padding:90px;
     color:white;
+}
+.textoabajo{
+    text-align: center;
+}
+.cancion{
+    text-align: center;
+}
+.artistas{
+    text-align: center;
+    font-size: 50px;
+    padding: 60px;
 }
