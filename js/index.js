@@ -1,5 +1,5 @@
 //metemos variable de la api para traer la info
-let urlArtistas = "https://api.allorigins.win/raw?url=https://api.deezer.com/chart"
+let urlArtistas = "https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart"
 fetch(urlArtistas)
     .then(function(res){
             return res.json();
