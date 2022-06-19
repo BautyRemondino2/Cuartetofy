@@ -16,7 +16,7 @@ fetch(urlArtistas)
             //construimos un elemento de la lista
 
             contenido += `<article class="lakonga">
-                        <img src="${info[i].picture_medium}">
+                        <a href="cantante.html?id=${info[i].id}"><img src="${info[i].picture_medium}"></a>
                         <p>${info[i].name}</p>
                         </article>`;
         }
@@ -38,7 +38,7 @@ fetch(urlArtistas)
             //volvemos a contruir un elemento de la lista
 
             contenidoAlbum += `<article class="album">
-                                 <img src='${infoAlbumes[i].cover_medium}'>
+                                 <a href="disco.html?id=${info[i].id}"><img src='${infoAlbumes[i].cover_medium}'></a>
                                  <p>${infoAlbumes[i].title}</p>
                                 </article>`
         }
@@ -61,7 +61,7 @@ fetch(urlArtistas)
             //volvemos a contruir un elemento de la lista
 
             contenidoCancion += `<article class="album">
-                                <img src='${infoCanciones[i].artist.picture_medium}'>
+                                <a href="cancion.html?id=${info[i].id}"><img src='${infoCanciones[i].artist.picture_medium}'></a>
                                 <p>${infoCanciones[i].title}</p>
                                 </article>`
         }
