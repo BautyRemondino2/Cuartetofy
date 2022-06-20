@@ -41,8 +41,6 @@ fetch(urlDetailArt + idDet + "/artists")
                     <p class="">${dArtist.data[i].name}</p>
                     </article>`
             }
-
-
 })
 .catch(function(error){
     console.log(error);
