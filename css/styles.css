@@ -227,6 +227,7 @@ h1:hover{
 }
 .descrip{
     padding-bottom: 30px;
+    color: white;
 }
 .h2genero{
     padding-top: 30px;
@@ -432,4 +433,19 @@ h1:hover{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+}
+.detailArtist{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content:space-around;
+        padding: 15px;
+}
+.cordoba{
+    align-items: center;
+}
+.detailArtist:hover{
+    transform: scale(1.1);
+    transition: 300ms;
 }
