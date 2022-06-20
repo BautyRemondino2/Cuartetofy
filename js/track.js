@@ -21,6 +21,21 @@ fetch(UrlTrack)
                          <a class="vermas" href="playlist.html?id=${data}">Agregar a PlayList</a>
                          </div>`
 
+                        
+                        
+                 document.querySelector(".favs").addEventListener("click", function(){
+                      let added;
+                      if (sessionStorage.getItem("playlist") !=null){
+                         added = sessionStorage.getItem("playlist").split(",")
+                         added.push(id)
+                       }
+                       else {
+                         added = []
+                         added.push(id)
+                 }
+                    sessionStorage.setItem(".favs", added)
+               })
+
 })
 
 .catch(function(error){
