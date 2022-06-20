@@ -18,8 +18,23 @@ fetch(UrlTrack)
                          <h3>Artista de la cancion es: ${data.artist.name}</h3>
                          <h3>Esta cancion pertenece al album: ${data.album.title}</h3>
                          <div class='vermas2'>
-                         <a class="trackPlay" href="playlist.html?id=${data}">Agregar a PlayList</a>
+                         <button class="trackplay">Agregar a favorito</button>
                          </div>`
+
+
+     document.querySelector(".trackplay").addEventListener("click", function(){
+               let mandar;
+               if (sessionStorage.getItem("fav") != null) {
+                    mandar = sessionStorage.getItem("fav").split(",")
+                    mandar.push(id)
+               } else {
+                    mandar = []
+                    mandar.push(id)
+               }
+                    sessionStorage.setItem("fav", mandar);
+                })
+
+
 
 })
 .catch(function(error){
