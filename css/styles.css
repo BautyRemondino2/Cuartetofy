@@ -157,6 +157,20 @@ h1:hover{
     justify-content: center;
     padding: 0 10px;
 }
+.artist2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10px;
+}
+.lakongaa{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10px;
+}
 .la21{
     padding: 0 10px;
 }
@@ -171,6 +185,7 @@ h1:hover{
     width: 200px;
 }
 .cancion{
+    padding: 120px;
     display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -193,8 +208,22 @@ h1:hover{
 }
 .vermas{
     color: black;
+    width: 190px;
     padding: 4px;
     background-color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.vermas2{
+    padding: 20px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
 }
 .descrip{
     padding-bottom: 30px;
@@ -216,7 +245,7 @@ h1:hover{
     padding-bottom: 80px;
 }
 .discos{
-    font-size: 50px;
+    font-size: 30px;
     padding: 50px;
     text-align: center;
 }
@@ -288,6 +317,10 @@ h1:hover{
 .info{
     color:yellow;
 }
+.infodelDisco{
+    text-align: center;
+    padding: 50px;
+}
 .playlist{
     display:flex;
     flex-wrap: nowrap;
@@ -316,4 +349,76 @@ h1:hover{
 }
 .idcantante{
     color:white;
+}
+.link2{
+    color: white;
+    text-align: center;
+}
+.fotoartist{
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+.disc{
+    padding-bottom: 60px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+}
+.artistasJs {
+    padding-top: 60px;
+}
+.cantante{
+    padding-bottom: 60px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+}
+.cantanteCanciones{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: grey;
+}
+.cantanteCanciones:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.linkcantante{
+    color: white;
+}
+.cancion{
+    text-align: center;
+    padding: 30px;
+}
+.ifra{
+    padding-bottom: 20px;
+}
+.album{
+    padding: 3px;
+}
+.ifram{
+    padding: 30px;
+}
+.btnTrack{
+    width: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.albumclick{
+    text-align: center;
+    font-size: 50px;
+}
+.imgdisc{
+    
 }
