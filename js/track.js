@@ -25,7 +25,7 @@ fetch(UrlTrack)
      document.querySelector(".trackplay").addEventListener("click", function(){
                let mandar;
                if (sessionStorage.getItem("fav") != null) {
-                    mandar = sessionStorage.getItem("fav").split(",")
+                    mandar = sessionStorage.getItem("fav").split(",") //sirve para agregar mas canciones distintas
                     mandar.push(id)
                } else {
                     mandar = []
@@ -33,8 +33,6 @@ fetch(UrlTrack)
                }
                     sessionStorage.setItem("fav", mandar);
                 })
-
-
 
 })
 .catch(function(error){

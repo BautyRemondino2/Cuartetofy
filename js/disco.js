@@ -52,10 +52,11 @@ fetch(UrlDisc)
         contenidoDisco += `<h3 class="cancion">${infoDisco[i].title}</h3>
         <iframe title="deezer-widget" class="ifra" src="https://widget.deezer.com/widget/dark/track/${infoDisco[i].id}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
         <div class='vermas2'>
-        <a class="vermas" href="playlist.html?id=${infoDisco[i].id}">Agregar a PlayList</a>
+        <button class="trackplay">Agregar a favorito</button>
         </div>`
     }
     disco.innerHTML += contenidoDisco
+
 })
 
 .catch(function(error){
