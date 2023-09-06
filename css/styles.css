@@ -307,13 +307,12 @@ h1:hover{
 .generoNombre{
     text-align: center;
 }
-.generodetail{
+section.generodetail{
     display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content:center;
         padding: 15px;
-        height:600px;
 }
 .mona{
     margin:30px;
@@ -434,18 +433,21 @@ h1:hover{
     flex-direction: row;
     justify-content: space-around;
 }
-.detailArtist{
+section.detailArtist{
     display: flex;
         flex-wrap: wrap;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         justify-content:space-around;
         padding: 15px;
 }
 .cordoba{
     align-items: center;
 }
-.detailArtist:hover{
+article.detailArtist{
+    padding: 30px;
+}
+article.detailArtist:hover{
     transform: scale(1.1);
     transition: 300ms;
 }
